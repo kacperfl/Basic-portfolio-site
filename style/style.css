@@ -1,0 +1,199 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body, h1, h2, p, figure, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courgette', cursive;
+font-family: 'Playfair Display', serif;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+section {
+    padding: 20px;
+    
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #777;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.p1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.linkedin-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0077b5;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.linkedin-button:hover {
+    background-color: #004471;
+}
+#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+figure {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    max-width: 900px; 
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px; 
+}
+
+figcaption {
+    text-align: left;
+    max-width: 200px;
+}
+
+figcaption h2 {
+    margin-bottom: 10px;
+}
+#about {
+    text-align: center; 
+    margin: 0 auto; 
+    max-width: 600px; 
+}
+
+
+#contact {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+#ervaring {
+    text-align: center; 
+    margin: 0 auto; 
+    max-width: 600px; 
+}
+
+.contact-footer {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+}
+
+.p1 {
+    margin-bottom: 10px;
+    margin-right: 20px; 
+}
+
+.linkedin-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    background-color: #0077b5;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+/* Voeg deze CSS toe om de animatie te definiëren */
+#projects figure {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+#projects figure.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+.scroll-fade {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.scroll-fade.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
