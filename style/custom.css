@@ -1,0 +1,41 @@
+@media only screen and (max-width: 600px) {
+    nav a {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    #projects figure {
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    img {
+        margin-right: 0;
+    }
+
+    figcaption {
+        text-align: center;
+        max-width: 100%;
+        margin-right: 0;
+    }
+
+    #about, #ervaring {
+        max-width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .contact-footer {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+    }
+
+    .p1, .linkedin-button {
+        margin-right: 0;
+    }
+}
