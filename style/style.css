@@ -184,9 +184,19 @@ figcaption h2 {
     transform: translateY(0);
 }
 
+.contact-footer a {
+    color: #fff;
+    text-decoration: none;
+}
 
+.contact-footer a:visited {
+    color: #fff;
+}
 
-
+.contact-footer a:hover {
+    color: #ddd;
+    text-decoration: underline;
+}
 
 
 
