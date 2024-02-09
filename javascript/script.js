@@ -1,17 +1,22 @@
-document.addEventListener("DOMContentLoaded", function () {
+function toggleAnimation() {
     const projectFigures = document.querySelectorAll('#projects figure');
 
-    window.addEventListener('scroll', function () {
-        projectFigures.forEach(figure => {
-            const figureTop = figure.getBoundingClientRect().top;
-            const windowHeight = window.innerHeight;
+    projectFigures.forEach(figure => {
+        const figureTop = figure.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight / 1.2;
 
-            if (figureTop < windowHeight / 2) {
-                figure.classList.add('show');
-            } else {
-                figure.classList.remove('show');
-            }
-        });
+        if (figureTop < windowHeight / 2) {
+            figure.classList.add('show');
+        } else {
+            figure.classList.remove('show');
+        }
+    });
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+    toggleAnimation();
+    window.addEventListener('scroll', function () {
+        toggleAnimation();
     });
 });
 
